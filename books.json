@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J. K. Rowling",
+    "edition": 276,
+    "year": 1998,
+    "ebook": "❌ Not Available",
+    "summary": "",
+    "read": true
+  },
+  {
+    "title": "The North West Passage",
+    "author": "Roald Amundsen",
+    "edition": 7,
+    "year": 1907,
+    "ebook": "✅ Available",
+    "summary": "",
+    "read": false
+  }
+]
