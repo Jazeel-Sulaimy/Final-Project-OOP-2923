@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Backgrounds */
+.home-bg {
+  background-image: url('https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0');
+}
+
+.list-bg {
+  background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+}
+
+.details-bg {
+  background-image: url('https://images.unsplash.com/photo-1528207776546-365bb710ee93');
+}
+
+/* Container */
+.container {
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin: 40px auto;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+.back-btn {
+  margin-top: 15px;
+  background-color: #555;
+}
+
+.back-btn:hover {
+  background-color: #333;
+}
+
+/* Cards */
+.author-card, .book-card {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.author-card {
+  cursor: pointer;
+}
+
+.author-card:hover {
+  background-color: #f0f8ff;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #666;
+  font-size: 1.1em;
+}

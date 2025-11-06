@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reading Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-bg">
+  <div class="container">
+    <h1>📚 Reading Tracker</h1>
+
+    <div class="search-box">
+      <input type="text" id="author" placeholder="Enter author name" />
+      <button id="searchBtn">🔍 Search</button>
+      <button id="viewBtn">📘 View My Reading List</button>
+    </div>
+
+    <h2>Popular Authors (Roald Dahl & Related)</h2>
+    <div id="authorsList" class="authors-container">
+      <p>Loading authors...</p>
+    </div>
+
+    <h2>Book Results</h2>
+    <div id="results"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
